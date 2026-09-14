@@ -1,670 +1,338 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="light">
+<html lang="en">
 <head>
-<meta charset="UTF-8">
+<meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-
-<title>Vihaan Ghelani — Student &amp; Web Developer</title>
-<meta name="description" content="Portfolio of Vihaan Ghelani, a Class 10 student and self-taught web developer building things with HTML, CSS, JavaScript and Python.">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#101113">
+<title>Vihaan Ghelani</title>
+<meta name="description" content="Vihaan Ghelani. Class 10 student in Sharjah, self-taught web developer. HTML, CSS, JavaScript and Python.">
 <meta name="author" content="Vihaan Ghelani">
-<meta name="theme-color" content="#121212">
-<meta property="og:title" content="Vihaan Ghelani — Student &amp; Web Developer">
-<meta property="og:description" content="Class 10 student. Self-taught developer. I build clean things for the web.">
-<meta property="og:type" content="website">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%23121212'/%3E%3Ctext y='72' x='50' text-anchor='middle' font-size='56' font-family='Georgia,serif' fill='%23ffffff'%3EV%3C/text%3E%3C/svg%3E">
-
 <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-<div id="progress"></div>
 
-<!-- HEADER  -->
-<header class="site" id="header">
-  <div class="wrap nav">
-    <a href="#top" class="brand" aria-label="Home">
-      <span class="dot" aria-hidden="true"></span>
-      <span>Vihaan&nbsp;Ghelani</span>
-    </a>
-
-    <nav class="nav-links" id="navLinks" aria-label="Primary">
+<header class="top">
+  <div class="wrap topbar">
+    <a href="#top" class="name">Vihaan Ghelani</a>
+    <button id="menuBtn">Menu</button>
+    <nav id="nav">
       <a href="#about">About</a>
       <a href="#skills">Skills</a>
-      <a href="#projects">Projects</a>
+      <a href="#projects">Work</a>
       <a href="#experience">Experience</a>
       <a href="#contact">Contact</a>
     </nav>
-
-    <div class="nav-right">
-      <button class="icon-btn" id="themeBtn" aria-label="Toggle dark mode" title="Toggle theme">
-        <svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg>
-        <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><circle cx="12" cy="12" r="4.2"/><path d="M12 2v2.4M12 19.6V22M2 12h2.4M19.6 12H22M4.9 4.9l1.7 1.7M17.4 17.4l1.7 1.7M19.1 4.9l-1.7 1.7M6.6 17.4l-1.7 1.7"/></svg>
-      </button>
-      <button class="icon-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
-      </button>
-    </div>
   </div>
 </header>
 
-<div id="mobileNav">
-  <a href="#about">About</a>
-  <a href="#skills">Skills</a>
-  <a href="#projects">Projects</a>
-  <a href="#experience">Experience</a>
-  <a href="#contact">Contact</a>
-</div>
-
 <main id="top">
 
-<!-- HERO  -->
-<section class="hero">
-  <div class="wrap hero-inner">
+  <section class="hero">
+    <div class="wrap">
+      <h1>Class 10 student, teaching myself to build for the web.</h1>
+      <p>
+        I started writing code in 2023, at thirteen, because I wanted to know how the apps
+        I used every day actually worked. Three years later it's most of my free time. I
+        work with HTML, CSS and JavaScript(currently), and I'm picking up Python on the side.
+      </p>
+      <p class="herolinks">
+        <a href="#projects">See my work</a>
+        <a href="#contact">Get in touch</a>
+      </p>
 
-    <h1 class="hero-title reveal" data-d="1">
-      Vihaan Ghelani<em>.</em><br>
-      <span id="typed" aria-live="polite"></span><span class="caret" aria-hidden="true"></span>
-    </h1>
-
-    <p class="hero-lead reveal" data-d="2">
-      <!-- 5. ONE-LINE INTRO -->
-      I'm a <b>student</b> who taught himself to code. I build fast,
-      accessible websites with <b>HTML, CSS &amp; JavaScript</b>, and I'm learning
-      <b>Python</b> on the side. Currently looking for my first real-world project.
-    </p>
-
-    <div class="hero-cta reveal" data-d="3">
-      <a class="btn btn-primary" href="#projects">
-        See my work
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14m0 0-5.5-5.5M19 12l-5.5 5.5"/></svg>
-      </a>
-      <a class="btn btn-ghost" href="#contact">Get in touch</a>
+      <div class="meta">
+        <div>Based in <i>Sharjah</i>, UAE</div>
+        <div>School <i>OOB Sharjah Boys</i></div>
+        <div>Coding since <i>2023</i></div>
+        <div>Status <i>open</i> to small projects</div>
+      </div>
     </div>
+  </section>
 
-    <div class="hero-meta reveal" data-d="4">
-      <div><div class="k">Based in</div><div class="v">Sharjah (UAE)</div></div>
-      <div><div class="k">School</div><div class="v">OOB Sharjah Boys</div></div>
-      <div><div class="k">Focus</div><div class="v">Front-end &amp; Web</div></div>
-      <div><div class="k">Coding since</div><div class="v">2023</div></div>
-    </div>
-  </div>
-  <div class="scroll-hint" aria-hidden="true"><span>Scroll</span><span class="line"></span></div>
-</section>
-
-<!-- MARQUEE  -->
-<div class="marquee" aria-hidden="true">
-  <div class="marquee-track" id="marquee">
-    <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>Python</span><span>Responsive Design</span><span>Git &amp; GitHub</span><span>Problem Solving</span><span>Self-Taught</span>
-  </div>
-</div>
-
-<!-- ABOUT  -->
-<section id="about">
   <div class="wrap">
-    <div class="about-grid">
-      <div class="portrait reveal">
-        <div class="portrait-frame">
-          <!-- 9. YOUR PHOTO — replace this whole <svg>…</svg> block with:
-               <img src="assets/photo.jpg" alt="Vihaan Ghelani">
-               (the sizing is already handled in style.css) -->
+
+    <section id="about" class="about">
+      <span class="label">01 &nbsp;About</span>
+
+      <div class="split">
+        <div class="photobox">
           <img src="image.jpeg" alt="Vihaan Ghelani">
         </div>
-      </div>
 
-      <div class="about-body">
-        <span class="eyebrow reveal">About me</span>
-        <h2 class="sec-title reveal" data-d="1">A student who<br>ships real code.</h2>
-        <div class="lede reveal" data-d="2">
-          <!-- 11. ABOUT PARAGRAPHS -->
-          <p>I started programming in 2023 out of pure curiosity — I wanted to know how the the apps which I used every day actually worked. Since then, that curiosity turned into a habit of building things.</p>
-          <p>Most of my work is <strong>front-end</strong>: structuring a page with semantic HTML, styling it with clean CSS, and making it come alive with JavaScript. I've also picked up <strong>Python</strong> for small scripts and school projects.</p>
-          <p>Outside of code I'm a regular Class 10 student who likes to play cricket and play video games. I care about writing code that's readable, interfaces that are fast, and learning something new every week.</p>
-        </div>
-
-        <div class="facts reveal" data-d="3">
-          <div><div class="k">Languages</div><div class="v">English, Hindi, Gujarati</div></div>
-          <div><div class="k">Education</div><div class="v">Class 10 · OOB Sharjah Boys</div></div>
-          <div><div class="k">Interests</div><div class="v">Web dev, UI design</div></div>
-          <div><div class="k">Goal</div><div class="v">CS degree → Software Eng.</div></div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!--  STATS  -->
-<div class="stats" aria-label="Quick numbers">
-  <div class="stat reveal"><div class="n" data-count="12">0</div><div class="l">Projects built</div></div>
-  <div class="stat reveal" data-d="1"><div class="n" data-count="4">0</div><div class="l">Languages &amp; tools</div></div>
-  <div class="stat reveal" data-d="2"><div class="n" data-count="3">0</div><div class="l">Years of coding</div></div>
-  <div class="stat reveal" data-d="3"><div class="n" data-count="100">0</div><div class="l">% self-taught</div></div>
-</div>
-
-<!-- SKILLS  -->
-<section id="skills">
-  <div class="wrap">
-    <span class="eyebrow reveal">Skills</span>
-    <h2 class="sec-title reveal" data-d="1">What I can build with.</h2>
-    <p class="sec-sub reveal" data-d="2">Honest levels — no inflated percentages. I'd rather show you a working project than claim I know everything.</p>
-
-    <div class="skills-grid">
-      <article class="skill-card reveal">
-        <h3><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M8 9 5 12l3 3M16 9l3 3-3 3M13.5 6l-3 12"/></svg></span>HTML &amp; CSS</h3>
-        <p class="note">My strongest area. Semantic markup, Flexbox, Grid, responsive layouts.</p>
-        <div class="skill-row"><div class="top"><span>HTML5</span><span class="lvl">medium</span></div><div class="bar"><i data-level="75"></i></div></div>
-        <div class="skill-row"><div class="top"><span>CSS3 / Flexbox / Grid</span><span class="lvl">medium-advanced</span></div><div class="bar"><i data-level="85"></i></div></div>
-        <div class="skill-row"><div class="top"><span>Responsive design</span><span class="lvl">mid-solid</span></div><div class="bar"><i data-level="80"></i></div></div>
-      </article>
-
-      <article class="skill-card reveal" data-d="1">
-        <h3><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M12 3v3M12 18v3M5.6 5.6l2.1 2.1M16.3 16.3l2.1 2.1M3 12h3M18 12h3M5.6 18.4l2.1-2.1M16.3 7.7l2.1-2.1"/></svg></span>JavaScript</h3>
-        <p class="note">DOM work, events, fetch, small interactive features and games.</p>
-        <div class="skill-row"><div class="top"><span>Core JS / DOM</span><span class="lvl">Solid</span></div><div class="bar"><i data-level="78"></i></div></div>
-        <div class="skill-row"><div class="top"><span>ES6+ &amp; async</span><span class="lvl">Learning</span></div><div class="bar"><i data-level="62"></i></div></div>
-        <div class="skill-row"><div class="top"><span>Libraries / frameworks</span><span class="lvl">Exploring</span></div><div class="bar"><i data-level="35"></i></div></div>
-      </article>
-
-      <article class="skill-card reveal" data-d="2">
-        <h3><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3h6a3 3 0 0 1 3 3v3H6V6a3 3 0 0 1 3-3Z"/><path d="M15 21H9a3 3 0 0 1-3-3v-3h12v3a3 3 0 0 1-3 3Z"/></svg></span>Python</h3>
-        <p class="note">Scripting, simple automation and school assignments.</p>
-        <div class="skill-row"><div class="top"><span>Python basics</span><span class="lvl">Beginner+</span></div><div class="bar"><i data-level="55"></i></div></div>
-        <div class="skill-row"><div class="top"><span>Data structures</span><span class="lvl">Learning</span></div><div class="bar"><i data-level="45"></i></div></div>
-        <div class="skill-row"><div class="top"><span>Libraries (pandas, etc.)</span><span class="lvl">Curious</span></div><div class="bar"><i data-level="25"></i></div></div>
-      </article>
-
-      <article class="skill-card reveal" data-d="3">
-        <h3><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><circle cx="6" cy="6" r="2.4"/><circle cx="6" cy="18" r="2.4"/><circle cx="18" cy="12" r="2.4"/><path d="M6 8.4v7.2M8.2 7.2 15.8 11M15.8 13 8.2 16.8"/></svg></span>Tools &amp; Workflow</h3>
-        <p class="note">The everyday stuff that makes shipping possible.</p>
-        <div class="skill-row"><div class="top"><span>Git &amp; GitHub</span><span class="lvl">Solid</span></div><div class="bar"><i data-level="72"></i></div></div>
-        <div class="skill-row"><div class="top"><span>VS Code / DevTools</span><span class="lvl">Daily</span></div><div class="bar"><i data-level="82"></i></div></div>
-        <div class="skill-row"><div class="top"><span>Debugging &amp; problem solving</span><span class="lvl">Daily</span></div><div class="bar"><i data-level="75"></i></div></div>
-      </article>
-    </div>
-
-    <div class="toolbelt reveal">
-      <!-- 13. EXTRA CHIPS -->
-      <span class="chip">Semantic HTML</span><span class="chip">CSS Animations</span>
-      <span class="chip">Media Queries</span><span class="chip">Accessibility</span>
-      <span class="chip">localStorage</span><span class="chip">Fetch API</span>
-      <span class="chip">Problem Solving</span><span class="chip">Fast learner</span>
-    </div>
-  </div>
-</section>
-
-<!-- PROJECTS  -->
-<section id="projects" class="band-soft">
-  <div class="wrap">
-    <span class="eyebrow reveal">Selected work</span>
-    <h2 class="sec-title reveal" data-d="1">Projects I've built.</h2>
-
-    <div class="filters reveal" data-d="3" role="group" aria-label="Filter projects">
-      <button data-filter="all" aria-pressed="true">All</button>
-      <button data-filter="web" aria-pressed="false">Websites</button>
-      <button data-filter="js" aria-pressed="false">JavaScript</button>
-      <button data-filter="python" aria-pressed="false">Python</button>
-      <button data-filter="school" aria-pressed="false">School</button>
-    </div>
-
-    <div class="projects" id="projectGrid">
-      <article class="card reveal" data-cat="web js">
-        <div class="thumb">
-          <span class="pin">Featured</span>
-          <svg viewBox="0 0 400 250" role="img" aria-label="Portfolio website preview">
-            <rect width="400" height="250" fill="#eef1f5"/>
-            <rect x="26" y="24" width="348" height="26" rx="6" fill="#fff"/>
-            <circle cx="42" cy="37" r="4" fill="#c9ced6"/><circle cx="56" cy="37" r="4" fill="#c9ced6"/><circle cx="70" cy="37" r="4" fill="#c9ced6"/>
-            <rect x="26" y="66" width="164" height="12" rx="6" fill="#c9ced6"/>
-            <rect x="26" y="88" width="230" height="8" rx="4" fill="#dfe3e9"/>
-            <rect x="26" y="102" width="196" height="8" rx="4" fill="#dfe3e9"/>
-            <rect x="26" y="126" width="72" height="22" rx="11" fill="#121212"/>
-            <rect x="26" y="170" width="106" height="56" rx="8" fill="#fff"/>
-            <rect x="146" y="170" width="106" height="56" rx="8" fill="#fff"/>
-            <rect x="266" y="170" width="108" height="56" rx="8" fill="#fff"/>
-          </svg>
-        </div>
-        <div class="card-body">
-          <span class="yr">2026 · Web</span>
-          <h3>Personal Portfolio Site</h3>
-          <p>A responsive, dark-mode-ready portfolio built from scratch — no frameworks, no templates. Includes animated sections, project filtering and a working contact form.</p>
-          <div class="stack"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
-        </div>
-      </article>
-
-      <article class="card reveal" data-d="2" data-cat="python">
-        <div class="thumb">
-          <svg viewBox="0 0 400 250" role="img" aria-label="Python quiz game preview">
-            <rect width="400" height="250" fill="#eaf0ee"/>
-            <rect x="34" y="30" width="332" height="190" rx="10" fill="#111a17"/>
-            <g font-family="ui-monospace,monospace" font-size="13" fill="#7fd6b0">
-              <text x="52" y="60">&gt; python quiz.py</text>
-              <text x="52" y="86" fill="#cfe3da">Q1. What does len("code") return?</text>
-              <text x="52" y="112" fill="#8aa39a">  [1] 3   [2] 4   [3] 5</text>
-              <text x="52" y="146" fill="#7fd6b0">&gt; 2  ✓ correct!</text>
-              <text x="52" y="176" fill="#cfe3da">Score: 7 / 10</text>
-            </g>
-            <rect x="52" y="192" width="9" height="14" fill="#7fd6b0"/>
-          </svg>
-        </div>
-        <div class="card-body">
-          <span class="yr">2025 · Python</span>
-          <h3>Quiz Game (CLI)</h3>
-          <p>A terminal quiz that reads questions from a JSON file, keeps score, shows a high-score board and explains every wrong answer.</p>
-          <div class="stack"><span>Python</span><span>JSON</span><span>CLI</span></div>
-          <div class="card-links">
-            <a href="#" target="_blank" rel="noopener">Code <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6 3 12l6 6M15 6l6 6-6 6"/></svg></a>
-          </div>
-        </div>
-      </article>
-
-      <article class="card reveal" data-d="1" data-cat="school js">
-        <div class="thumb">
-          <svg viewBox="0 0 400 250" role="img" aria-label="Study flashcards preview">
-            <rect width="400" height="250" fill="#eaf1f5"/>
-            <rect x="70" y="46" width="230" height="140" rx="12" fill="#c9dbe6" transform="rotate(-6 185 116)"/>
-            <rect x="86" y="42" width="230" height="140" rx="12" fill="#fff" transform="rotate(3 201 112)"/>
-            <rect x="112" y="72" width="120" height="12" rx="6" fill="#121212" transform="rotate(3 201 112)"/>
-            <rect x="112" y="98" width="176" height="8" rx="4" fill="#cfd8de" transform="rotate(3 201 112)"/>
-            <rect x="112" y="112" width="150" height="8" rx="4" fill="#cfd8de" transform="rotate(3 201 112)"/>
-            <rect x="112" y="146" width="64" height="18" rx="9" fill="#eef1f5" transform="rotate(3 201 112)"/>
-          </svg>
-        </div>
-        <div class="card-body">
-          <span class="yr">2025 · School</span>
-          <h3>Flashcard Study App</h3>
-          <p>Built for my own Class 10 revision and then shared with classmates. Flip-card animations, deck shuffle, progress tracking and a keyboard shortcut mode.</p>
-          <div class="stack"><span>JavaScript</span><span>CSS</span><span>HTML</span></div>
-        </div>
-      </article>
-
-      <article class="card reveal" data-d="2" data-cat="js python">
-        <div class="thumb">
-          <svg viewBox="0 0 400 250" role="img" aria-label="Weather dashboard preview">
-            <rect width="400" height="250" fill="#eef2f0"/>
-            <rect x="30" y="30" width="340" height="90" rx="12" fill="#fff"/>
-            <circle cx="86" cy="75" r="22" fill="#f0c040"/>
-            <path d="M118 84a18 18 0 0 1 34-6 14 14 0 0 1-4 27h-30a11 11 0 0 1 0-21Z" fill="#cfd8d4"/>
-            <rect x="180" y="52" width="86" height="22" rx="6" fill="#e4eae7"/>
-            <rect x="180" y="82" width="150" height="9" rx="4.5" fill="#e4eae7"/>
-            <g fill="#fff"><rect x="30" y="134" width="106" height="86" rx="10"/><rect x="147" y="134" width="106" height="86" rx="10"/><rect x="264" y="134" width="106" height="86" rx="10"/></g>
-            <g fill="#dfe6e3"><rect x="46" y="152" width="54" height="8" rx="4"/><rect x="46" y="170" width="74" height="16" rx="5"/><rect x="163" y="152" width="54" height="8" rx="4"/><rect x="163" y="170" width="74" height="16" rx="5"/><rect x="280" y="152" width="54" height="8" rx="4"/><rect x="280" y="170" width="74" height="16" rx="5"/></g>
-          </svg>
-        </div>
-        <div class="card-body">
-          <span class="yr">2026 · API</span>
-          <h3>Weather Dashboard</h3>
-          <p>Fetches live weather from a public API, converts units, caches the last search and draws a small 5-day forecast chart with plain canvas.</p>
-          <div class="stack"><span>Fetch API</span><span>Canvas</span><span>JavaScript</span></div>
-        </div>
-      </article>
-
-      
-      <article class="card reveal" data-cat="web">
-        <div class="thumb">
-          <svg viewBox="0 0 400 250" role="img" aria-label="Landing page preview">
-            <rect width="400" height="250" fill="#f0eef5"/>
-            <rect x="0" y="0" width="400" height="120" fill="#dcd7ea"/>
-            <circle cx="320" cy="52" r="42" fill="#c8c0dd"/>
-            <rect x="34" y="40" width="150" height="14" rx="7" fill="#b3a9cd"/>
-            <rect x="34" y="62" width="200" height="9" rx="4.5" fill="#c8c0dd"/>
-            <rect x="34" y="82" width="70" height="20" rx="10" fill="#121212"/>
-            <g fill="#fff"><rect x="34" y="140" width="100" height="76" rx="8"/><rect x="150" y="140" width="100" height="76" rx="8"/><rect x="266" y="140" width="100" height="76" rx="8"/></g>
-          </svg>
-        </div>
-        <div class="card-body">
-          <span class="yr">2025 · Web</span>
-          <h3>YouTube Music bulk playlist downloader</h3>
-          <p>A tool to download multiple YouTube Music songs or 1 full playlist at once, with a clean and simple interface. It is currently in development and can only work in a laptop. (only for educational purposes)</p>
-          <div class="stack"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
-        </div>
-      </article>
-
-      
-      <article class="card reveal" data-cat="web">
-        <div class="thumb">
-          <svg viewBox="0 0 400 250" role="img" aria-label="Landing page preview">
-            <rect width="400" height="250" fill="#f0eef5"/>
-            <rect x="0" y="0" width="400" height="120" fill="#dcd7ea"/>
-            <circle cx="320" cy="52" r="42" fill="#c8c0dd"/>
-            <rect x="34" y="40" width="150" height="14" rx="7" fill="#b3a9cd"/>
-            <rect x="34" y="62" width="200" height="9" rx="4.5" fill="#c8c0dd"/>
-            <rect x="34" y="82" width="70" height="20" rx="10" fill="#121212"/>
-            <g fill="#fff"><rect x="34" y="140" width="100" height="76" rx="8"/><rect x="150" y="140" width="100" height="76" rx="8"/><rect x="266" y="140" width="100" height="76" rx="8"/></g>
-          </svg>
-        </div>
-        <div class="card-body">
-          <span class="yr">2025 · Web</span>
-          <h3>Virtual Steering wheel</h3>
-          <p>A virtual steering wheel for a car simulation game, with realistic physics and controls. Here we have to run the python file which will open the app. Then the app will aceess your camera. When you keep your hands on the view point of the camera, it will detect it and then according to the correct destures it will make the car respond in the game in real time.</p>
-          <div class="stack"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
-        </div>
-      </article>
-    </div>
-
-    <p class="more-link reveal">
-      More experiments, school assignments and half-finished ideas live on my
-      <a href="https://github.com/Vihaan6119" target="_blank" rel="noopener">GitHub</a>.
-    </p>
-  </div>
-</section>
-
-<!-- ================= EXPERIENCE ================= -->
-<section id="experience">
-  <div class="wrap">
-    <span class="eyebrow reveal">Experience &amp; education</span>
-    <h2 class="sec-title reveal" data-d="1">Where I've been.</h2>
-    <p class="sec-sub reveal" data-d="2">
-      <!-- 17. TIMELINE INTRO -->
-      School, clubs, self-driven learning — newest first.
-      Check that the years match your real timeline.
-    </p>
-
-      <div class="tl-item reveal" data-d="1">
-        <span class="tl-kind">Education</span>
-        <div class="tl-head">
-          <h3>Class 10 — Secondary School</h3><span class="org">· OOB Sharjah Boys</span>
-          <span class="tl-date">2025 — 2026</span>
-        </div>
-        <p>CBSE</p>
-        <ul>
-          <li>Key subjects: Mathematics, Science, Computer Applications</li>
-          <li>Member of the Inovaters and Robotics club</li>
-        </ul>
-      </div>
-
-      <div class="tl-item reveal" data-d="2">
-        <span class="tl-kind">compition</span>
-        <div class="tl-head">
-          <h3>Tech compition</h3><span class="org">· OOB Sharjah Boys</span>
-          <span class="tl-date">2025 — 2026</span>
-        </div>
-        <p>Made a webapp/website where people who can't speak can show their thoughts and feelings via sign launguage and the app will translate it into text and speech. This was for the a tech compition in my school in which I got the 1st place.</p>
-        <ul>
-          <li>Got 1st place</li>
-        </ul>
-      </div>
-
-      <div class="tl-item reveal" data-d="4">
-        <span class="tl-kind">Self-learning</span>
-        <div class="tl-head">
-          <h3>Started coding</h3><span class="org">· freeCodeCamp, YouTube</span>
-          <span class="tl-date">2023</span>
-        </div>
-        <p>Wrote my first line of code at 13. Kept going every day since.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ================= CONTACT ================= -->
-<section id="contact" class="band-soft">
-  <div class="wrap">
-    <div class="contact-grid">
-      <div>
-        <span class="eyebrow reveal">Contact</span>
-        <h2 class="sec-title reveal" data-d="1">Let's build<br>something.</h2>
-        <p class="sec-sub contact-intro reveal" data-d="2">
-          <!-- 19. CONTACT INTRO -->
-          I'm open to internships, small freelance work, school collaborations or just a
-          chat about code. I usually reply within a day or two.
-        </p>
-
-        <a class="big-mail reveal" data-d="2" href="mailto:hello@example.com" id="mailLink"><!-- 20. YOUR EMAIL -->vihaanghelani7@gmail.com</a>
-        <button class="btn btn-ghost copy-mail reveal" data-d="2" id="copyMail">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="12" height="12" rx="2.5"/><path d="M6 15H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v1"/></svg>
-          Copy
-        </button>
-
-        <div class="contact-list reveal" data-d="3">
-          <!-- 21. SOCIAL LINKS -->
-          <a href="https://github.com/Vihaan6119" target="_blank" rel="noopener">
-            <span class="ic"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.45-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.61.07-.61 1 .07 1.53 1.03 1.53 1.03.89 1.53 2.34 1.09 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.56-1.11-4.56-4.95 0-1.09.39-1.99 1.03-2.69-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.03a9.5 9.5 0 0 1 5 0c1.91-1.3 2.75-1.03 2.75-1.03.55 1.38.2 2.4.1 2.65.64.7 1.03 1.6 1.03 2.69 0 3.85-2.34 4.7-4.57 4.95.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10 10 0 0 0 12 2Z"/></svg></span>
-            <span><span class="lbl">GitHub</span><br><span class="val">github.com/Vihaan6119</span></span>
-            <span class="go"><svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
-          </a>
-
-          <a href="https://instagram.com/_vihaan1.exe" target="_blank" rel="noopener">
-            <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1.1" fill="currentColor" stroke="none"/></svg></span>
-            <span><span class="lbl">Instagram</span><br><span class="val">@_vihaan1.exe</span></span>
-            <span class="go"><svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
-          </a>
-        </div>
-      </div>
-
-      <div class="reveal" data-d="1">
-        <form class="contact" id="contactForm" novalidate>
-          <div class="two">
-            <div class="field">
-              <label for="fname">Your name</label>
-              <input id="fname" name="name" type="text" placeholder="Jane Smith" required autocomplete="name">
-            </div>
-            <div class="field">
-              <label for="femail">Email</label>
-              <input id="femail" name="email" type="email" placeholder="jane@example.com" required autocomplete="email">
-            </div>
-          </div>
-          <div class="field">
-            <label for="fsubject">Subject</label>
-            <input id="fsubject" name="subject" type="text" placeholder="Project idea / internship / hello">
-          </div>
-          <div class="field">
-            <label for="fmsg">Message</label>
-            <textarea id="fmsg" name="message" rows="6" placeholder="Tell me a bit about what you have in mind…" required></textarea>
-          </div>
-          <button class="btn btn-primary submit-btn" type="submit">
-            Send message
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m4 12 16-8-6 8 6 8-16-8Z"/></svg>
-          </button>
-          <p class="form-note">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 8h.01"/></svg>
-            <!-- 22. FORM NOTE -->
-            <span>This form opens your mail app. Want messages sent straight to your inbox? Hook it up to a free service like Formspree — instructions are in <code>README.md</code>.</span>
+        <div>
+          <p>
+            I started programming in 2023 out of pure curiosity. I wanted to know how the
+            apps I used every day actually worked, and that curiosity turned into a habit
+            of building things.
           </p>
-        </form>
-      </div>
-    </div>
-  </div>
-</section>
+          <p>
+            Most of my work is front end: structuring a page with semantic HTML, styling
+            it with clean CSS, and making it come alive with JavaScript. I've also picked
+            up Python for small scripts and school projects.
+          </p>
+          <p>
+            Outside of code I'm a regular Class 10 student at OOB Sharjah Boys. I play
+            cricket and far too many video games. I care about writing code that's
+            readable, interfaces that are fast, and learning something new every week.
+          </p>
 
+          <dl class="facts">
+            <dt>Languages</dt>
+            <dd>English, Hindi, Gujarati</dd>
+            <dt>Board</dt>
+            <dd>CBSE, Class 10</dd>
+            <dt>Club</dt>
+            <dd>Innovators and Robotics</dd>
+            <dt>Goal</dt>
+            <dd>A CS degree, then software engineering</dd>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="skills">
+      <span class="label">02 &nbsp;Skills</span>
+      <h2>What I actually know</h2>
+      <p class="lede">No invented percentages. This is the honest version.</p>
+
+      <dl>
+        <dt>HTML</dt>
+        <dd>I write it by hand and I care about using the right tags for the right job.
+            <span class="lv">medium</span></dd>
+
+        <dt>CSS</dt>
+        <dd>My strongest area. Flexbox and grid both make sense to me now, and I can get a
+            layout to behave on a phone. <span class="lv">good</span></dd>
+
+        <dt>JavaScript</dt>
+        <dd>Comfortable with the DOM, events, functions, arrays and localStorage. Async
+            and promises still trip me up sometimes, and I've only started looking at
+            libraries. <span class="lv">solid</span></dd>
+
+        <dt>Python</dt>
+        <dd>Beginner plus. Variables, loops, functions, lists and dictionaries. I've made
+            a terminal quiz game and a camera controlled steering wheel with it.
+            <span class="lv off">learning</span></dd>
+
+        <dt>Java</dt>
+        <dd>School level only. I can read it and write simple programs for class.
+            <span class="lv off">basics</span></dd>
+
+        <dt>Git</dt>
+        <dd>I can commit, push and pull, and I use VS Code and the browser dev tools every
+            day. Merge conflicts still scare me a little. <span class="lv">solid</span></dd>
+      </dl>
+    </section>
+
+    <section id="projects">
+      <span class="label">03 &nbsp;Work</span>
+      <h2>Things I've made</h2>
+      <p class="lede">Some of these are rough. I'm leaving them up anyway.</p>
+
+      <article class="proj">
+        <div class="phead">
+          <h3><a href="https://github.com/Vihaan6119">This website</a></h3>
+          <span class="pdate">2026</span>
+        </div>
+        <p>
+          Three files, no frameworks, no templates. I wrote all of the CSS myself, which
+          took far longer than I expected, mainly because I kept changing my mind about
+          the colours. It went through a light version before I settled on this.
+        </p>
+        <p class="tags">html &middot; css &middot; a little javascript</p>
+        <p class="plinks"><a href="https://github.com/Vihaan6119">source</a></p>
+      </article>
+
+      <article class="proj">
+        <div class="phead">
+          <h3><a href="https://github.com/Vihaan6119">Sign language translator</a> <span class="award">1st place</span></h3>
+          <span class="pdate">2025</span>
+        </div>
+        <p>
+          A web app for people who can't speak. You sign into the camera and it turns what
+          you're saying into text and speech, so you can get your thoughts across to
+          somebody who doesn't understand sign language. I built it for the tech
+          competition at school and it took first place.
+        </p>
+        <p class="tags">html &middot; css &middot; javascript</p>
+        <p class="plinks"><a href="https://github.com/Vihaan6119">source</a></p>
+      </article>
+
+      <article class="proj">
+        <div class="phead">
+          <h3><a href="https://github.com/Vihaan6119">Virtual steering wheel</a></h3>
+          <span class="pdate">2025</span>
+        </div>
+        <p>
+          You run a Python file, it opens a window and asks for your camera. Hold your
+          hands up in front of it and it tracks them, then turns your gestures into
+          steering input for a car game in real time. No physical wheel, no controller,
+          just your hands.
+        </p>
+        <p class="tags">python &middot; camera &middot; hand tracking</p>
+        <p class="plinks"><a href="https://github.com/Vihaan6119">source</a></p>
+      </article>
+
+      <article class="proj">
+        <div class="phead">
+          <h3><a href="https://github.com/Vihaan6119">YouTube Music playlist downloader</a></h3>
+          <span class="pdate">2025</span>
+        </div>
+        <p>
+          Downloads a whole playlist, or several songs at once, instead of one at a time.
+          Simple interface, nothing fancy. It's still in development and only works on a
+          laptop so far. Built for learning, not for distribution.
+        </p>
+        <p class="tags">html &middot; css &middot; javascript</p>
+        <p class="plinks"><a href="https://github.com/Vihaan6119">source</a></p>
+      </article>
+
+      <article class="proj">
+        <div class="phead">
+          <h3><a href="https://github.com/Vihaan6119">Weather dashboard</a></h3>
+          <span class="pdate">2026</span>
+        </div>
+        <p>
+          Pulls live weather from a public API, converts the units, remembers your last
+          search and draws a five day forecast chart on a plain canvas element. No chart
+          library, I wanted to work out how to draw it myself.
+        </p>
+        <p class="tags">javascript &middot; fetch api &middot; canvas</p>
+        <p class="plinks"><a href="https://github.com/Vihaan6119">source</a></p>
+      </article>
+
+      <article class="proj">
+        <div class="phead">
+          <h3><a href="https://github.com/Vihaan6119">Flashcards for board prep</a></h3>
+          <span class="pdate">2025</span>
+        </div>
+        <p>
+          Built to revise for my Class 10 boards, then a few classmates asked for it so I
+          put it online. Click a card and it flips. It shuffles the deck and keeps the ones
+          you got wrong in a separate pile, which is the part that actually helped me.
+        </p>
+        <p class="tags">javascript &middot; css transitions</p>
+        <p class="plinks"><a href="https://github.com/Vihaan6119">source</a></p>
+      </article>
+
+      <article class="proj">
+        <div class="phead">
+          <h3><a href="https://github.com/Vihaan6119">Quiz game</a></h3>
+          <span class="pdate">2025</span>
+        </div>
+        <p>
+          Python in the terminal. It reads its questions from a JSON file, keeps score,
+          explains the ones you get wrong and shows a high score board at the end. Small,
+          but it was the first program I made that felt like a real thing.
+        </p>
+        <p class="tags">python &middot; json &middot; command line</p>
+        <p class="plinks"><a href="https://github.com/Vihaan6119">source</a></p>
+      </article>
+
+      <p class="also">
+        More experiments, school assignments and half finished ideas are on my
+        <a href="https://github.com/Vihaan6119">GitHub</a>.
+      </p>
+    </section>
+
+    <section id="experience">
+      <span class="label">04 &nbsp;Experience</span>
+      <h2>So far</h2>
+      <p class="lede">School, competitions and teaching myself. Newest first.</p>
+
+      <div class="entry now">
+        <span class="when">2025 &ndash; now</span>
+        <div>
+          <h3>1st place, school tech competition</h3>
+          <p>
+            I built the sign language translator for OOB Sharjah Boys' tech competition and
+            it came first. It was the first deadline I'd ever worked to, and the first time
+            I had to explain my own code to judges who asked proper questions about it.
+          </p>
+        </div>
+      </div>
+
+      <div class="entry now">
+        <span class="when">2025 &ndash; 2026</span>
+        <div>
+          <h3>Class 10, OOB Sharjah Boys</h3>
+          <p>
+            CBSE. Mathematics, science and computer applications are the ones I enjoy.
+            Member of the Innovators and Robotics club. Boards are this year, so most of my
+            time is going into that.
+          </p>
+        </div>
+      </div>
+
+      <div class="entry">
+        <span class="when">2023</span>
+        <div>
+          <h3>Started coding</h3>
+          <p>
+            Wrote my first line of code at thirteen. Learned from freeCodeCamp and YouTube,
+            and kept going every day since. Everything on this page I taught myself outside
+            of school hours.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <span class="label">05 &nbsp;Contact</span>
+      <h2>Say hello</h2>
+      <p class="lede">
+        Questions about a project, or hiring a student for something small, email is the
+        best way to reach me. I usually reply within a day or two.
+      </p>
+
+      <a class="mailto" href="mailto:vihaanghelani7@gmail.com">vihaanghelani7@gmail.com</a>
+
+      <ul class="links">
+        <li><a href="https://github.com/Vihaan6119">GitHub</a></li>
+        <li><a href="https://instagram.com/_vihaan1.exe">Instagram</a></li>
+      </ul>
+
+      <form action="mailto:vihaanghelani7@gmail.com" method="post" enctype="text/plain">
+        <div class="field">
+          <label for="n">Your name</label>
+          <input id="n" name="name" type="text" placeholder="Jane">
+        </div>
+        <div class="field">
+          <label for="e">Your email</label>
+          <input id="e" name="email" type="email" placeholder="jane@example.com">
+        </div>
+        <div class="field">
+          <label for="m">Message</label>
+          <textarea id="m" name="message" rows="5" placeholder="What's it about?"></textarea>
+        </div>
+        <button class="send" type="submit">Send it</button>
+        <p class="hint">
+          This opens your own email app with the message ready to go. Nothing is stored
+          anywhere and nothing reaches a server.
+        </p>
+      </form>
+    </section>
+
+  </div>
 </main>
 
-<!-- ================= FOOTER ================= -->
-<footer class="site">
+<footer>
   <div class="wrap foot">
-    <p>© <span id="year">2026</span> <!-- 23. FOOTER NAME -->Vihaan Ghelani. Designed &amp; built by hand with HTML, CSS and vanilla JS.</p>
-    <nav aria-label="Footer">
-      <a href="#about">About</a><a href="#projects">Projects</a><a href="#contact">Contact</a>
-    </nav>
-    <a class="totop" href="#top">
-      Back to top
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20V5m0 0-6 6m6-6 6 6"/></svg>
-    </a>
+    <p>&copy; 2026 Vihaan Ghelani. Sharjah, UAE.</p>
+    <p><a href="#top">Back to top</a></p>
   </div>
 </footer>
 
-<div id="toast" role="status" aria-live="polite"></div>
-
 <script>
-/* =========================================================
-   ALL INTERACTIVITY — vanilla JS, no libraries, works offline
-   Styling lives in style.css. This block is behaviour only.
-   ========================================================= */
-(function () {
-  "use strict";
-  var $  = function (s, c) { return (c || document).querySelector(s); };
-  var $$ = function (s, c) { return Array.prototype.slice.call((c || document).querySelectorAll(s)); };
-  var reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+var menuBtn = document.getElementById("menuBtn");
+var nav = document.getElementById("nav");
 
-  /* ---------- 1. THEME (light / dark, remembered) ---------- */
-  var root = document.documentElement, themeBtn = $("#themeBtn");
-  function setTheme(t) {
-    root.setAttribute("data-theme", t);
-    try { localStorage.setItem("theme", t); } catch (e) {}
-    themeBtn.setAttribute("aria-label", t === "dark" ? "Switch to light mode" : "Switch to dark mode");
-  }
-  try {
-    var saved = localStorage.getItem("theme");
-    if (saved) setTheme(saved);
-    else if (window.matchMedia("(prefers-color-scheme: dark)").matches) setTheme("dark");
-  } catch (e) {}
-  themeBtn.addEventListener("click", function () {
-    setTheme(root.getAttribute("data-theme") === "dark" ? "light" : "dark");
-  });
-
-  /* ---------- 2. HEADER BORDER + SCROLL PROGRESS ---------- */
-  var header = $("#header"), progress = $("#progress"), raf = false;
-  function onScroll() {
-    if (raf) return;
-    raf = true;
-    requestAnimationFrame(function () {
-      var y = window.scrollY || document.documentElement.scrollTop;
-      header.classList.toggle("stuck", y > 8);
-      var h = document.documentElement.scrollHeight - window.innerHeight;
-      progress.style.width = (h > 0 ? (y / h) * 100 : 0) + "%";
-      raf = false;
-    });
-  }
-  window.addEventListener("scroll", onScroll, { passive: true });
-  onScroll();
-
-  /* ---------- 3. MOBILE MENU ---------- */
-  var menuBtn = $("#menuBtn"), mobileNav = $("#mobileNav");
-  function closeMenu() { mobileNav.classList.remove("open"); menuBtn.setAttribute("aria-expanded", "false"); }
-  menuBtn.addEventListener("click", function () {
-    var open = mobileNav.classList.toggle("open");
-    menuBtn.setAttribute("aria-expanded", String(open));
-  });
-  $$("#mobileNav a").forEach(function (a) { a.addEventListener("click", closeMenu); });
-  document.addEventListener("keydown", function (e) { if (e.key === "Escape") closeMenu(); });
-
-  /* ---------- 4. TYPING HEADLINE ---------- */
-  // 24. THE ROTATING WORDS under your name
-  var words = ["Class 10 student.", "Self-taught dev.", "Front-end builder.", "Problem solver."];
-  var typed = $("#typed");
-  if (typed && !reduced) {
-    var wi = 0, ci = 0, deleting = false;
-    (function tick() {
-      var w = words[wi];
-      ci += deleting ? -1 : 1;
-      typed.textContent = w.slice(0, ci);
-      var delay = deleting ? 42 : 82;
-      if (!deleting && ci === w.length) { delay = 1900; deleting = true; }
-      else if (deleting && ci === 0) { deleting = false; wi = (wi + 1) % words.length; delay = 320; }
-      setTimeout(tick, delay);
-    })();
-  } else if (typed) { typed.textContent = words[0]; }
-
-  /* ---------- 5. REVEAL ON SCROLL + SKILL BARS ---------- */
-  var revealables = $$(".reveal");
-  if ("IntersectionObserver" in window && !reduced) {
-    var io = new IntersectionObserver(function (entries) {
-      entries.forEach(function (en) {
-        if (!en.isIntersecting) return;
-        en.target.classList.add("in");
-        $$(".bar i", en.target).forEach(function (bar) { bar.style.width = bar.dataset.level + "%"; });
-        io.unobserve(en.target);
-      });
-    }, { threshold: 0.14, rootMargin: "0px 0px -8% 0px" });
-    revealables.forEach(function (el) { io.observe(el); });
-  } else {
-    revealables.forEach(function (el) { el.classList.add("in"); });
-    $$(".bar i").forEach(function (bar) { bar.style.width = bar.dataset.level + "%"; });
-  }
-
-  /* ---------- 6. ANIMATED COUNTERS ---------- */
-  var counters = $$("[data-count]");
-  function runCount(el) {
-    var target = parseInt(el.dataset.count, 10) || 0, dur = 1400, t0 = null;
-    if (reduced) { el.textContent = target; return; }
-    function step(ts) {
-      if (!t0) t0 = ts;
-      var p = Math.min((ts - t0) / dur, 1);
-      el.textContent = Math.round(target * (1 - Math.pow(1 - p, 3)));
-      if (p < 1) requestAnimationFrame(step);
-    }
-    requestAnimationFrame(step);
-  }
-  if ("IntersectionObserver" in window) {
-    var cio = new IntersectionObserver(function (entries) {
-      entries.forEach(function (en) { if (en.isIntersecting) { runCount(en.target); cio.unobserve(en.target); } });
-    }, { threshold: 0.6 });
-    counters.forEach(function (c) { cio.observe(c); });
-  } else { counters.forEach(runCount); }
-
-  /* ---------- 7. PROJECT FILTER ---------- */
-  var filterBtns = $$(".filters button"), cards = $$("#projectGrid .card");
-  filterBtns.forEach(function (btn) {
-    btn.addEventListener("click", function () {
-      filterBtns.forEach(function (b) { b.setAttribute("aria-pressed", String(b === btn)); });
-      var f = btn.dataset.filter;
-      cards.forEach(function (card) {
-        var show = f === "all" || (card.dataset.cat || "").split(/\s+/).indexOf(f) > -1;
-        card.classList.toggle("hide", !show);
-        if (show) { card.classList.remove("in"); void card.offsetWidth; card.classList.add("in"); }
-      });
-    });
-  });
-
-  /* ---------- 8. ACTIVE NAV LINK ---------- */
-  var sections = $$("main section[id]"), navA = $$("#navLinks a");
-  if ("IntersectionObserver" in window) {
-    var sio = new IntersectionObserver(function (entries) {
-      entries.forEach(function (en) {
-        if (!en.isIntersecting) return;
-        navA.forEach(function (a) { a.classList.toggle("active", a.getAttribute("href") === "#" + en.target.id); });
-      });
-    }, { rootMargin: "-45% 0px -50% 0px" });
-    sections.forEach(function (s) { sio.observe(s); });
-  }
-
-  /* ---------- 9. MARQUEE (duplicate for a seamless loop) ---------- */
-  var mq = $("#marquee");
-  if (mq) mq.innerHTML += mq.innerHTML;
-
-  /* ---------- 10. TOAST + COPY EMAIL ---------- */
-  var toast = $("#toast"), toastTimer;
-  function showToast(msg) {
-    toast.textContent = msg; toast.classList.add("show");
-    clearTimeout(toastTimer);
-    toastTimer = setTimeout(function () { toast.classList.remove("show"); }, 2400);
-  }
-  $("#copyMail").addEventListener("click", function () {
-    var mail = $("#mailLink").textContent.trim();
-    function fallback() {
-      var ta = document.createElement("textarea");
-      ta.value = mail; ta.style.position = "fixed"; ta.style.opacity = "0";
-      document.body.appendChild(ta); ta.select();
-      try { document.execCommand("copy"); showToast("Email copied ✓"); }
-      catch (e) { showToast("Copy failed — " + mail); }
-      document.body.removeChild(ta);
-    }
-    if (navigator.clipboard && navigator.clipboard.writeText) {
-      navigator.clipboard.writeText(mail).then(function () { showToast("Email copied ✓"); }, fallback);
-    } else fallback();
-  });
-
-  /* ---------- 11. CONTACT FORM ----------
-     Default behaviour: opens the visitor's mail app, pre-filled.
-     To send to your inbox instead, add  action="https://formspree.io/f/YOUR_ID"
-     method="POST" to the <form> tag and delete the JS below.           */
-  $("#contactForm").addEventListener("submit", function (e) {
-    e.preventDefault();
-    var f = e.target, name = f.name.value.trim(), email = f.email.value.trim();
-    var subj = f.subject.value.trim(), msg = f.message.value.trim();
-    if (!name || !email || !msg) { showToast("Please fill in name, email and message"); return; }
-    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) { showToast("That email doesn't look right"); return; }
-    // 25. YOUR EMAIL ADDRESS (keep it the same as marker 20 above)
-    var to = "hello@example.com";
-    var body = "Name: " + name + "\nEmail: " + email + "\n\n" + msg;
-    window.location.href = "mailto:" + to +
-      "?subject=" + encodeURIComponent((subj ? subj + " — " : "") + "Portfolio message from " + name) +
-      "&body=" + encodeURIComponent(body);
-    showToast("Opening your mail app…");
-    f.reset();
-  });
-
-  /* ---------- 12. FOOTER YEAR ---------- */
-  $("#year").textContent = new Date().getFullYear();
-})();
+menuBtn.onclick = function () {
+  nav.classList.toggle("show");
+};
 </script>
+
 </body>
 </html>
